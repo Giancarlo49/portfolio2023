@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+:root {
+  --orange-theme-background-color: #1d1d1d;
+  --orange-theme-main-color: #eb964b;
+  --orange-theme-sub-text-color: #ffffff;
+  --orange-theme-nav-background-color: #181818;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  /* background: var(--orange-theme-background-color); */
+  background: linear-gradient(to bottom, #181818 60%, rgb(42, 24, 3));
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
